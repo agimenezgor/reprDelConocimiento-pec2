@@ -1,0 +1,1368 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2022/3/tv-show#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2022/3/tv-show"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:la-que-se-avecina-tv-show="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show">
+        <rdfs:comment xml:lang="authors: álvaro giménez gorrís"></rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasActorsOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasActorsOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actors"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasAwardOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasAwardOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasCompanyOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasCompanyOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Company"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasDayOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasDayOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Day"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasDescriptionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasDescriptionOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Description"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasDurationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasDurationOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfEpisodes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasEpisodeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasEpisodeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasGenreOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasGenreOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Genre"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasLanguageOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasLanguageOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Language"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasMonthOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasMonthOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Month"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasNameOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasNameOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasNumberOfEpisodesOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasNumberOfEpisodesOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfEpisodes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasNumberOfSeasonsOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasNumberOfSeasonsOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfSeasons"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPersonOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPersonOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#WorkTeam"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPublishedDateOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPublishedDateOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasRoleOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasRoleOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasRoleTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasRoleTypeOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actors"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Director"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Producer"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Screenwriter"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasSeasonOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasSeasonOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasTitleOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasTitleOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasTvchannelOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasTvchannelOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#TVChanel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasWorkTeamOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasWorkTeamOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#WorkTeam"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasYearOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasYearOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Year"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasLanguage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Language"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPositiveInteger -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPositiveInteger">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Duration"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfEpisodes"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfSeasons"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasString -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasString">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Company"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Description"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Genre"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#TVChanel"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <rdfs:comment>Tv show actor</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/ontology/Actor</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:comment>Awards received by the tv show</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Company">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasString"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:comment>Publication date</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Day -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Day">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPositiveInteger"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Publication day</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Description -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Description">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasString"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>TV show description</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <rdfs:comment>Tv show director</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Duration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Duration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPositiveInteger"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Episode duration in minutes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <rdfs:comment>Episode of the season</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasString"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Genre of the tv show</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasLanguage"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Month -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Month">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPositiveInteger"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Publication month</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasString"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Name of the person</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfEpisodes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfEpisodes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPositiveInteger"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Total number of episodes</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfSeasons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfSeasons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPositiveInteger"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#WorkTeam"/>
+        <rdfs:comment>Person that works in the tv show</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Producer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Producer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <rdfs:comment>Tv show producer</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <rdfs:comment>Role that the person has in the tv show</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Screenwriter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Screenwriter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <rdfs:comment>Tv show screenwriter</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/ontology/ScreenWriter</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:comment>Season of the tv show</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#TVChanel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#TVChanel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasString"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Tv chanel that broadcasts the tv show</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasString"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Title of the class</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#WorkTeam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#WorkTeam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+        <rdfs:comment>Work team of the serie</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Year">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#hasPositiveInteger"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Publication year</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <la-que-se-avecina-tv-show:hasActorsOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1"/>
+        <la-que-se-avecina-tv-show:hasActorsOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2"/>
+        <la-que-se-avecina-tv-show:hasActorsOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2"/>
+        <la-que-se-avecina-tv-show:hasPersonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor1Name -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor1Name">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <la-que-se-avecina-tv-show:hasNameOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor1"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nacho Guerreros</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <la-que-se-avecina-tv-show:hasActorsOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1"/>
+        <la-que-se-avecina-tv-show:hasActorsOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2"/>
+        <la-que-se-avecina-tv-show:hasPersonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor2Name -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor2Name">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <la-que-se-avecina-tv-show:hasNameOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor2"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pablo Chiapella</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <la-que-se-avecina-tv-show:hasActorsOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1"/>
+        <la-que-se-avecina-tv-show:hasPersonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor3Name -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor3Name">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <la-que-se-avecina-tv-show:hasNameOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor3"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordi Sanchez</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <la-que-se-avecina-tv-show:hasActorsOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2"/>
+        <la-que-se-avecina-tv-show:hasPersonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor4Name -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor4Name">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <la-que-se-avecina-tv-show:hasNameOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor4"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ernesto Sevilla</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ActorRole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ActorRole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <la-que-se-avecina-tv-show:hasRoleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor1"/>
+        <la-que-se-avecina-tv-show:hasRoleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor2"/>
+        <la-que-se-avecina-tv-show:hasRoleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor3"/>
+        <la-que-se-avecina-tv-show:hasRoleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actor4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ActorRoleType -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ActorRoleType">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Actors"/>
+        <la-que-se-avecina-tv-show:hasRoleTypeOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ActorRole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards"/>
+        <la-que-se-avecina-tv-show:hasAwardOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award1Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award1Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award1"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio a la mejor serie de comedia por MiM Series</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Awards"/>
+        <la-que-se-avecina-tv-show:hasAwardOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award2Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award2Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award2"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Premio &quot;Pasión por la crítica&quot; por FestVal</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Company -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Company">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Company"/>
+        <la-que-se-avecina-tv-show:hasCompanyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mediaset España</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Day"/>
+        <la-que-se-avecina-tv-show:hasDayOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">22</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1Month -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1Month">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Month"/>
+        <la-que-se-avecina-tv-show:hasMonthOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">04</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1Year -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1Year">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Year"/>
+        <la-que-se-avecina-tv-show:hasYearOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2007</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Day"/>
+        <la-que-se-avecina-tv-show:hasDayOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">29</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2Month -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2Month">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Month"/>
+        <la-que-se-avecina-tv-show:hasMonthOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">04</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2Year -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2Year">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Year"/>
+        <la-que-se-avecina-tv-show:hasYearOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason1Episode2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2007</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award2"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Day"/>
+        <la-que-se-avecina-tv-show:hasDayOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">3</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1Month -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1Month">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Month"/>
+        <la-que-se-avecina-tv-show:hasMonthOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">04</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1Year -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1Year">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Year"/>
+        <la-que-se-avecina-tv-show:hasYearOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2008</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Date"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Award1"/>
+        <la-que-se-avecina-tv-show:hasPublishedDateOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Day"/>
+        <la-que-se-avecina-tv-show:hasDayOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">9</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2Month -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2Month">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Month"/>
+        <la-que-se-avecina-tv-show:hasMonthOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">04</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2Year -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2Year">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Year"/>
+        <la-que-se-avecina-tv-show:hasYearOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DateSeason2Episode2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2008</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPerson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPerson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <la-que-se-avecina-tv-show:hasPersonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPersonName -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPersonName">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <la-que-se-avecina-tv-show:hasNameOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPerson"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laura Caballero</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPersonRole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPersonRole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <la-que-se-avecina-tv-show:hasRoleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPerson"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPersonRoleType -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPersonRoleType">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Director"/>
+        <la-que-se-avecina-tv-show:hasRoleTypeOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#DirectorPersonRole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tv-show-La-que-se-avecina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Language -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Language">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Language"/>
+        <la-que-se-avecina-tv-show:hasLanguageOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+        <la-que-se-avecina-tv-show:hasLanguage rdf:datatype="http://www.w3.org/2001/XMLSchema#language">Spanish</la-que-se-avecina-tv-show:hasLanguage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfSeasons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfSeasons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfSeasons"/>
+        <la-que-se-avecina-tv-show:hasNumberOfSeasonsOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">12</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPerson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPerson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <la-que-se-avecina-tv-show:hasPersonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPersonName -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPersonName">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <la-que-se-avecina-tv-show:hasNameOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPerson"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alberto Caballero</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPersonRole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPersonRole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <la-que-se-avecina-tv-show:hasRoleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPerson"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPersonRoleType -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPersonRoleType">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Producer"/>
+        <la-que-se-avecina-tv-show:hasRoleTypeOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ProducerPersonRole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPerson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPerson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Person"/>
+        <la-que-se-avecina-tv-show:hasPersonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPersonName -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPersonName">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Name"/>
+        <la-que-se-avecina-tv-show:hasNameOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPerson"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPersonRole -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPersonRole">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Role"/>
+        <la-que-se-avecina-tv-show:hasRoleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPerson"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPersonRoleType -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPersonRoleType">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Screenwriter"/>
+        <la-que-se-avecina-tv-show:hasRoleTypeOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#ScreenwriterPersonRole"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <la-que-se-avecina-tv-show:hasSeasonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <la-que-se-avecina-tv-show:hasEpisodeOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1Duration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1Duration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Duration"/>
+        <la-que-se-avecina-tv-show:hasDurationOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">79</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode1"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mirador de Montepinar</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <la-que-se-avecina-tv-show:hasEpisodeOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2Duration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2Duration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Duration"/>
+        <la-que-se-avecina-tv-show:hasDurationOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">74</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Episode2"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Okupas, flechazos y un golpe en el garaje</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1NumEpisodes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1NumEpisodes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfEpisodes"/>
+        <la-que-se-avecina-tv-show:hasNumberOfEpisodesOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">13</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season1"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporada 1</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season"/>
+        <la-que-se-avecina-tv-show:hasSeasonOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <la-que-se-avecina-tv-show:hasEpisodeOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1Duration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1Duration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Duration"/>
+        <la-que-se-avecina-tv-show:hasDurationOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">77</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode1"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un soltero, un yogur con fibra y un nuevo presidente</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Episode"/>
+        <la-que-se-avecina-tv-show:hasEpisodeOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2Duration -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2Duration">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Duration"/>
+        <la-que-se-avecina-tv-show:hasDurationOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">70</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Episode2"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un suspenso, una psicosis y un nuevo romance inconcebible</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2NumEpisodes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2NumEpisodes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfEpisodes"/>
+        <la-que-se-avecina-tv-show:hasNumberOfEpisodesOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2"/>
+        <la-que-se-avecina-tv-show:hasPositiveInteger rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">15</la-que-se-avecina-tv-show:hasPositiveInteger>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Title -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2Title">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Season2"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporada 2</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#description -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#description">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Description"/>
+        <la-que-se-avecina-tv-show:hasDescriptionOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Esta serie es una comedia destinada a un público sobre todo juvenil y adulto, que se caracteriza por ironizar con humor negro sobre las relaciones de convivencia entre vecinos de una comunidad a través de historias y situaciones surrealistas que les suceden a sus protagonistas</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#genre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#genre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Genre"/>
+        <la-que-se-avecina-tv-show:hasGenreOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comedia</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tvChannel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tvChannel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#TVChanel"/>
+        <la-que-se-avecina-tv-show:hasTvchannelOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telecinco</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tvshowTitle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#tvshowTitle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Title"/>
+        <la-que-se-avecina-tv-show:hasTitleOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+        <la-que-se-avecina-tv-show:hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La que se avecina</la-que-se-avecina-tv-show:hasString>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#workTeam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#WorkTeam"/>
+        <la-que-se-avecina-tv-show:hasWorkTeamOf rdf:resource="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#LaQueSeAvecina"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Company">
+        <rdfs:comment>Company producing the tv show</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#Language">
+        <rdfs:comment>Language of the tv show</rdfs:comment>
+        <rdfs:sameAs>https://dbpedia.org/ontology/language</rdfs:sameAs>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/user/ontologies/2022/3/la-que-se-avecina-tv-show#NumberOfSeasons">
+        <rdfs:comment>Total number fo seasons</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
